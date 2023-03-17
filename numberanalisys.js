@@ -25,6 +25,7 @@ function addNumber(n){
     if (inputNumber.value.length==0){
         
         alert('Por favor digite um número!')
+        return;
         
     }else if(listedNumbers.indexOf(n) == -1 && intervalChecker(n)==true){
             listedNumbers.push(n);
